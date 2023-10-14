@@ -1,0 +1,36 @@
+:root {
+    --main-color: #6757d9;
+    --white: #fff
+}
+
+
+
+h1 {
+    color: var(--main-color);
+    margin-top: 50px;
+    font-size: 2.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 20px;
+
+}
+
+a {
+    background-color: var(--white);
+    margin-bottom: 30px;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    color: var(--main-color);
+    text-decoration: none;
+    border-radius: 20px;
+    transition: all .3s ease-in;
+}
+
+a:hover {
+    background-color: var(--main-color);
+    color: var(--white);
+}
